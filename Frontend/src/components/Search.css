@@ -1,0 +1,33 @@
+/* Add these styles to your Header.css or the relevant CSS file */
+
+.suggestions-list {
+    position: absolute;
+    width: calc(18vw - 5px);
+    max-height: 200px;
+    min-width: 180px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-top: none;
+    z-index: 1000;
+    top: calc(22vh - 10px);
+    left: calc(46vw - 90px);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+.suggestion-item {
+    padding: 10px 10px 3px;
+    font-size: 14px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.suggestion-item:hover {
+    background-color: #dee2e6;
+}
+
+thead {
+    border-bottom: 1px solid #dee2e6;
+}

@@ -1,0 +1,57 @@
+.nav-link-custom {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* .nav-link-custom:hover {
+    color: red !important;
+} */
+
+.active-link {
+    border: 1px solid white;
+    border-radius: 14px;
+    /* color: white !important; */
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+.header-font {
+    font-size: 12px;
+}
+
+.brand-css {
+    font-size: 16px;
+}
+
+.icon-color {
+    color: #2824ac !important;
+    background-color: white;
+    border: none;
+}
+
+.input-field {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.headline {
+    font-size: 32px;
+}
+
+.search-bar {
+    border: #2824ac 3px solid;
+    min-width: 250px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 40px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}

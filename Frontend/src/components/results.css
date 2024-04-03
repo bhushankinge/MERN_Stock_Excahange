@@ -1,0 +1,45 @@
+.tab-item {
+    cursor: pointer;
+    font-weight: 600;
+    color: grey;
+}
+
+/* Hover State */
+.tab-item:hover {
+    background-color: #f8f4fc;
+}
+
+/* Active State */
+.tab-item.active {
+    background-color: white;
+    border-bottom: 2px solid #5333bda6;
+}
+
+/* Active Text Style */
+.active-text {
+    font-weight: 600;
+    color: #5333bda6;
+    /* Adjust the color as needed */
+}
+
+/* Click State */
+.tab-item.clicked {
+    background-color: #e8e4f4;
+}
+
+.scrolling-tabs-container {
+    flex-grow: 1;
+    white-space: nowrap;
+    /* Ensure tabs stay in one line and scroll */
+}
+
+.scroll-btn {
+    display: none;
+}
+
+/* Show scroll buttons on smaller screens */
+@media (max-width: 768px) {
+    .scroll-btn {
+        display: block;
+    }
+}
